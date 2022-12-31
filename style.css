@@ -1,0 +1,270 @@
+body {
+    background-color: darkslategrey;
+    font-family: Arial, sans-serif;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: large;
+  }
+
+  .navlinks a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 100px;
+    text-decoration: none;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  li {
+    float: left;
+  }
+
+  .active{
+    background-color: #04AA6D;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  
+  h1 {
+    color: rgb(207, 207, 208);
+    text-align: center;
+  }
+  
+  p{
+    font-size: 25px;
+    text-align: justify;
+  }
+
+  b{
+    font-size: 23px;
+    text-align: justify;
+  }
+
+  .map {
+    display:inline-block;
+    position:relative;
+  }
+
+  button {
+    background-color:rgb(143, 50, 0);
+    width: 20px;
+    height: 20px;
+    font-size: 8px;
+    border-radius: 10px;
+    border: 1px solid white;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+  }
+
+  .dinossauro {
+    background-color:rgb(143, 50, 0);
+  }
+
+  button:hover {
+    background-color: rgba(77, 28, 0);
+  }
+
+  #b1 {
+    position:absolute;
+    left:345px;
+    top:515px;
+  }
+
+  #b2 {
+    position:absolute;
+    left:345px;
+    top:495px;
+  }
+
+  #b3 {
+    position:absolute;
+    left:365px;
+    top:525px;
+  }
+
+  #b4 {
+    position:absolute;
+    left:360px;
+    top:480px;
+  }
+
+  #b5 {
+    position:absolute;
+    left:365px;
+    top:505px;
+  }
+
+  #b6 {
+    position:absolute;
+    left:358px;
+    top:545px;
+  }
+
+  #b7 {
+    position:absolute;
+    left:380px;
+    top:470px;
+  }
+
+  #b8 {
+    position:absolute;
+    left:383px;
+    top:512px;
+  }
+
+  #b9 {
+    position:absolute;
+    left:370px;
+    top:650px;
+  }
+
+  #b10 {
+    position:absolute;
+    left:340px;
+    top:555px;
+  }
+
+  #b11 {
+    position:absolute;
+    left:340px;
+    top:535px;
+  }
+
+  #b12 {
+    position:absolute;
+    left:450px;
+    top:335px;
+  }
+
+  #b13 {
+    position:absolute;
+    left:470px;
+    top:220px;
+  }
+
+  #b14 {
+    position:absolute;
+    left:520px;
+    top:880px;
+  }
+
+  #b15 {
+    position:absolute;
+    left:390px;
+    top:430px;
+  }
+
+  #portugal {
+    position:absolute;
+    left:300px;
+  }
+
+  #target {
+    background-color:rgb(143, 50, 0);
+    width: 800px;
+    height: 750px;
+    padding: 40px 20px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: rgba(77, 28, 0);
+    border-radius: 20px;
+    font-size: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:aliceblue;
+    position:absolute;
+    left:900px; top:200px;
+  }
+
+  figure {
+    float: right;
+    max-width: 100%;
+    text-align: center;
+    font-size: smaller;
+    font-style: italic;
+    text-indent: 0;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 60%;
+  }
+
+  #fig1 {
+    top: 50%;
+    left: 37%;
+  }
+
+  #fig2-1 {
+    top: 70%;
+    left: 10%;
+  }
+
+  #fig2-2 {
+    top: 70%;
+    left: 50%;
+  }
+
+  #fig3-1 {
+    left: 5%;
+  }
+
+  #fig3-2 {
+    left: 55%;
+  }
+
+  #fig4{
+    left: 24%;
+  }
+
+  #fig5-2{
+    left: 54%;
+  }
+
+  #fig7{
+    top: 50%;
+    left: 20%;
+  }
+
+  #fig8, #fig13, #fig14 {
+    left: 23%;
+  }
+
+  #fig9 {
+    top: 57%;
+    left: 13%;
+  }
+
+  #fig10 {
+    left: 20%;
+  }
+
+  #fig11, #fig12 {
+    top: 55%;
+    left: 25%;
+  }
+
+  #fig15{
+    top: 50%;
+    left: 9%;
+  }
+
+
+
+
+  
