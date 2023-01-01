@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Pedro Catarino">
     <link rel="stylesheet" href="style.css">
+    <script defer src="quiz.js"></script>
     <title>PE2223</title>
   </head>
   <body>
@@ -14,5 +18,23 @@
       </ul>
     </div>
     <h1>Paleontologia e Evolução</h1>
+    <h3 id = "initial-text">Estás pronto para o quiz? Se achas que já sabes o suficiente sobre a Paleontologia em Portugal, clica no botão "Começar!"</h3>
+    <div class = "quiz-body">
+      <div class = "container">
+        <div id = "questionContainer" class = "hide">
+          <div id="question">Question</div>
+          <div id = "answerbtns" class = "btnGrid">
+            <button class="btn correct">Resposta1</button>
+            <button class="btn wrong">Resposta2</button>
+            <button class="btn">Resposta3</button>
+            <button class="btn">Resposta4</button>
+          </div>
+        </div>
+        <div class="controls">
+          <button id="startbtn" class = "startbtn btn">Começar!</button>
+          <button id="nextbtn" class = "nextbtn btn hide">Próxima</button> 
+        </div>
+      </div>
+    </div>
   </body>
-</html>
+</html> 
