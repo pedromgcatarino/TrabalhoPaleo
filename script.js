@@ -21,7 +21,7 @@ const content3 = "<figure id = 'fig3-1'><img src='/images/lourinhanhosaurus.jpg'
 const content4 = "<figure id = 'fig4'><img src='/images/torvosaurus.png' alt='Torvosaurus'width='440' height='288'>\
 <figcaption>Dentes de um Torvosaurus gurneyi</figcaption></figure>\
 <h3>Torvosaurus gurneyi</h3> <h5>Classificação:&nbspTerópode<br>Período:&nbspJurássico Superior</h5>\
-<p>Foi descoberta a maxila (parte superior do maxilar) de uma nova espécie de dinossauro, o Torvosaurus gurneyi, que é considerado o maior predador terreste da europa. Os fósseis foram descobertos por um paleontólogo Holandês amador no concelho de Peniche e a espécie foi batizada pela dupla de paleontólogos Octávio Mateus e Christophe Hendrickx.<p>"
+<p>Foi descoberta a maxila (parte superior do maxilar) de uma nova espécie de dinossauro, o Torvosaurus gurneyi, já referido anteriormente, que é considerado o maior predador terreste da europa. Os fósseis foram descobertos por um paleontólogo Holandês amador no concelho de Peniche e a espécie foi batizada pela dupla de paleontólogos Octávio Mateus e Christophe Hendrickx.<p>"
 
 const content5 = "<figure id = 'fig5-1'><img src='/images/lusotitan1.jpg' alt='Lusotitan1'width='365' height='274'>\
 <figcaption>Osso do Lusotitan - Museu Geológico de Lisboa</figcaption></figure>\
@@ -75,7 +75,7 @@ const content14 = "<figure id = 'fig14'><img src='/images/metoposaurus.jpg' alt=
 <p>O Metoposaurus algarvensis é uma espécie de salamandra e era um dos maiores predadores há cerca de 200 milhões de anos atrás. Foi descoberto, na zona de Loulé, Algarve, por uma equipa de paleontólogos. Era contemporâneo das primeiras espécies de dinossauros e segundo Steve Brusatte, um dos cientistas do estudo, “Era tão comprido como um pequeno carro e tinha centenas de dentes afiados e uma grande cabeça chata. Este era o tipo de predador feroz que os primeiros dinossauros tinham que enfrentar”. Esta descoberta veio a demonstrar que a distribuição geográfica deste ser-vivo era maior do que se achava.<p>"
 
 const content15 = "<figure id = 'fig15'><img src='/images/Plesiopharos.jpg' alt='Plesiopharos'width='680' height='362'>\
-<figcaption>Fóssil de Allosaurus europaeus</figcaption></figure>\
+<figcaption>Fóssil de Plesiopharos moelensis</figcaption></figure>\
 <h3>Plesiopharos moelensis</h3> <h5>Período:&nbspJurássico Inferior</h5>\
 <p>Um grupo de paleontólogos descobriu fósseis do Plesiossauro mais antigo e mais completo da Península Ibérica. A nova espécie, designada de Plesiopharos moelensis, foi encontrada na praia de São Pedro de Moel, na Marinha Grande, daí o seu nome “moelensis”. Data ao início do Período Jurássico, há cerca de 195 milhões de anos. Os  fósseis encontrados constituem parte das barbatanas do lado direito do animal, tórax e pescoço.<p>"
 

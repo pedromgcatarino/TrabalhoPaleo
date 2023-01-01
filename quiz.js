@@ -16,10 +16,84 @@ const questions = [
         ]
     },
     {
-        question: '1 + 1?',
+        question: 'Qual o nome da espécie batizada por Octávio Mateus e Christophe Hendrickx, que se considera ter sido o maior predador terrestre da Europa?',
         answers: [
-            {text: '4', value: true},
-            {text: '22', value: false}
+            {text: 'Metoposaurus algarvensis', value: false},
+            {text: 'Lusotitan atalaiensis', value: false},
+            {text: 'Torvosaurus gurneyi', value: true},
+            {text: 'Zby Atlanticus', value: false},
+        ]
+    },
+    {
+        question: 'Qual o nome do dinossauro mais comprido encontrado em Portugal?',
+        answers: [
+            {text: 'Zby Atlanticus', value: false},
+            {text: 'Dinheirosaurus Lourinhanensis', value: true},
+            {text: 'Lusotitan atalaiensis', value: false},
+            {text: 'Miragaia Longicollum', value: false},
+        ]
+    },
+    {
+        question: 'Que municipio português é conhecido como a Capital dos Dinossauros?',
+        answers: [
+            {text: 'Lourinhã', value: true},
+            {text: 'Minho', value: false},
+            {text: 'Loures', value: false},
+            {text: 'Arouca', value: false},
+        ]
+    },
+    {
+        question: 'No ranking mundial de espécies de dinossauros descobertas por quilómetro quadrado, em que lugar está Portugal?',
+        answers: [
+            {text: '3º', value: false},
+            {text: '10º', value: false},
+            {text: '1º', value: true},
+            {text: '24º', value: false},
+        ]
+    },
+    {
+        question: 'A descoberta do Allosaurus europaeus (Allosaorus fragilis) teve grande importância mundial. Qual foi a razão?',
+        answers: [
+            {text: 'Mostrou que houve migração de dinossauros entre a América do Norte e a Europa', value: true},
+            {text: 'Foi a primeira descoberta fóssil em Portugal', value: false},
+            {text: 'Mostrou que houve migração de dinossauros entre a Ásia e a Europa', value: false},
+            {text: 'O fóssil descoberto era o esqueleto completo do dinossauro', value: false},
+        ]
+    },
+    {
+        question: 'Quantas vértebras cervicais possuía a espécie de dinossauro Miragaia Longicollum?',
+        answers: [
+            {text: '5', value: false},
+            {text: '17', value: true},
+            {text: '11', value: false},
+            {text: '46', value: false},
+        ]
+    },
+    {
+        question: 'O dinheirosauros lourinhanensis utilizava uma estratégia curiosa para se defender, qual era essa estratégia?',
+        answers: [
+            {text: 'Enterrava a sua cabeça', value: false},
+            {text: 'Atacava com o seu pescoço gigante', value: false},
+            {text: 'Utilizava a cauda como chicote', value: true},
+            {text: 'Fugia muito rápido', value: false},
+        ]
+    },
+    {
+        question: 'Em que período viveu o Metoposaurus algarvensis?',
+        answers: [
+            {text: 'Cretácico', value: false},
+            {text: 'Jurássico Inferior', value: false},
+            {text: 'Jurássico Superior', value: false},
+            {text: 'Triásico', value: true},
+        ]
+    },
+    {
+        question: 'Qual das seguintes classificações se aplica ao Dracopelta zbyszewskii?',
+        answers: [
+            {text: 'Crocodylia', value: false},
+            {text: 'Terópode', value: false},
+            {text: 'Saurópode', value: false},
+            {text: 'Ornitísquio', value: true},
         ]
     }
 ]

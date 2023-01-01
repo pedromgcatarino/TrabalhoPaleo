@@ -61,8 +61,7 @@ b{
   position:relative;
 }
 
-.dinossauro {
-  background-color:rgb(143, 50, 0);
+.botao {
   width: 20px;
   height: 20px;
   font-size: 8px;
@@ -73,16 +72,18 @@ b{
   cursor: pointer;
 }
 
+.legenda {
+  padding: 10px;
+  border: 0;
+  cursor: none;
+}
+
+.dinossauro {
+  background-color:rgb(143, 50, 0);
+}
+
 .outro {
   background-color:rgb(118, 132, 0);
-  width: 20px;
-  height: 20px;
-  font-size: 8px;
-  border-radius: 10px;
-  border: 1px solid white;
-  text-align: center;
-  color: white;
-  cursor: pointer;
 }
 
 .dinossauro:hover {
