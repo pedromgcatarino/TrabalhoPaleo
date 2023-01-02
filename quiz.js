@@ -54,9 +54,9 @@ const questions = [
     {
         question: 'A descoberta do Allosaurus europaeus (Allosaorus fragilis) teve grande importância mundial. Qual foi a razão?',
         answers: [
-            {text: 'Mostrou que houve migração de dinossauros entre a América do Norte e a Europa', value: true},
+            {text: 'Antes da descoberta, apenas eram conhecidos fosséis Allosaurus na América do Norte', value: true},
             {text: 'Foi a primeira descoberta fóssil em Portugal', value: false},
-            {text: 'Mostrou que houve migração de dinossauros entre a Ásia e a Europa', value: false},
+            {text: 'Foi o primeiro dinossauro descoberto do Cretácico Superior', value: false},
             {text: 'O fóssil descoberto era o esqueleto completo do dinossauro', value: false},
         ]
     },
@@ -100,6 +100,7 @@ const questions = [
 
 let shuffledQuestions;
 let numQuestion;
+let rightAnswers;
 
 startBtn.addEventListener('click',start)
 nextBtn.addEventListener('click', () => {
@@ -113,6 +114,7 @@ function start(){
     initText.classList.add('hide')
     shuffledQuestions = questions.sort(() => Math.random() - 0.5);
     numQuestion = 0;
+    rightAnswers = 0;
     nextQuestion()
 }
 
@@ -145,12 +147,12 @@ function reset(){
 
 function selectAnswer(e){
     const selected = e.target
-    const value = selected.dataset.value
     Array.from(answers.children).forEach(button => {
         setStatusClass(button, button.dataset.value)
     })
     if (selected.dataset.value){
         initText.innerText = "Está correto, muito bem!"
+        rightAnswers++;
         initText.classList.remove('hide')
     }
     else {
@@ -162,7 +164,7 @@ function selectAnswer(e){
         nextBtn.classList.remove('hide')
     }
     else {
-        initText.innerText = "Acabou o jogo. Gostarias de jogar outra vez?"
+        initText.innerText = 'Acabou o jogo. A tua pontuação foi ' + rightAnswers + '/10.'
         initText.classList.remove('hide')
         startBtn.innerText = 'Tentar outra vez'
         startBtn.classList.remove('hide')

@@ -3,6 +3,11 @@ body {
   font-family: Arial, sans-serif;
 }
 
+img {
+  border: 2px solid black;
+  box-shadow: 0 0 10px 2px black;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -29,7 +34,7 @@ ul {
   align-items: center;
 }
 
-li {
+.nav-item {
   float: left;
 }
 
@@ -58,7 +63,8 @@ b{
 
 .map {
   display:inline-block;
-  position:relative;
+  position:absolute;
+  top: 20%;
 }
 
 .botao {
@@ -185,14 +191,16 @@ b{
 }
 
 #portugal {
+  border: none;
+  box-shadow: none;
   position:absolute;
   left:300px;
 }
 
 #target {
   background-color:rgb(143, 50, 0);
-  width: 800px;
-  height: 750px;
+  width: 40%;
+  height: 75%;
   padding: 40px 20px;
   border-style: solid;
   border-width: 10px;
@@ -203,12 +211,16 @@ b{
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color:aliceblue;
   position:absolute;
-  left:900px; top:200px;
+  left:45%; top:30%;
 }
 
 #initial-text {
   text-align: center;
   color: aliceblue;
+}
+
+.disclaimer {
+  font-size: 19px;
 }
 
 figure {
@@ -253,6 +265,11 @@ figure {
 
 #fig5-2{
   left: 54%;
+}
+
+#fig6{
+  top: 65%;
+  left: 12%;
 }
 
 #fig7{
@@ -352,4 +369,18 @@ figure {
 
 .hide {
   display: none;
+}
+
+.sources {
+  line-height: 30px;
+  font-size: larger;
+  border: 5px solid #04AA6D;
+  padding: 30px;
+  text-align: center;
+  background-color:rgb(207, 207, 208);
+}
+
+.source:hover {
+  background-color:rgb(207, 207, 208);
+  color: darkblue;
 }

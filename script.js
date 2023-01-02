@@ -1,15 +1,15 @@
 const content1 = "<figure id = 'fig1'><img src='/images/CarlosRibeiro.png' alt='Carlos Ribeiro'width='194' height='287'>\
 <figcaption> Retrato de Carlos Ribeiro</figcaption></figure>\
-<h3>Torvossauros Gurneyi</h3>\
+<h3>Torvossauros gurneyi</h3>\
 <h5>Classificação:&nbspTerópode<br>Período:&nbspJurássico Superior</h5>\
-<p>O primeiro registo fóssil de Portugal foi feito pelo geólogo Carlos Ribeiro, em 1863, que descobriu um dente de um dinossauro carnívoro, que posteriormente foi denominado Torvosaurus Gurneyi. Esta descoberta foi feita em Porto das Barcas, Lourinhã.<p>"
+<p>O primeiro registo fóssil de Portugal foi feito pelo geólogo Carlos Ribeiro, em 1863, que descobriu um dente de um dinossauro carnívoro, que posteriormente foi denominado Torvosaurus Gurneyi. A descoberta foi feita em Porto das Barcas, Lourinhã.<p>"
 
 const content2 = "<figure id = 'fig2-1'><img src='/images/allosaurus.jpg' alt='Allosaurus'width='288' height='189'>\
 <figcaption>Fóssil de Allosaurus europaeus</figcaption></figure>\
 <figure id = 'fig2-2'><img src='/images/allosaurusPata.jpg' alt='AllosaurusPata 'width='288' height='189'>\
 <figcaption>Pata de Allosaurus encontrada em Cambelas</figcaption></figure>\
 <h3>Allossaurus europaeus (fragilis)</h3> <h4><h5>Classificação:&nbspTerópode<br>Período:&nbspJurássico Superior</h5>\
-<p>Este era um dinossauro bípede de grandes dimensões. O Allosaurus europaeus tem tantas semelhanças com o Allosaurus fragilis que, para alguns, é considerada a mesma espécie. A descoberta de fósseis Allosaurus teve grande importância pois, até à data, apenas eram conhecidos fósseis Allossaurus nos Estados Unidos da América, logo, a mais recente descoberta, aponta para a migração destes dinossauros da América do Norte para a Europa, indicando a existência de uma “ponte” terrestre entre os dois continentes atuais. Parte do esqueleto fossilizado deste dinossauro, foi encontrado na Praia de Vale Frade, perto da Lourinhã, num estado muito bem conservado. Foi descrito em 2006 por Octávio Mateus.<p>"
+<p>Este era um dinossauro bípede de grandes dimensões. O Allosaurus europaeus tem tantas semelhanças com o Allosaurus fragilis que, para alguns, é considerada a mesma espécie.<br> A descoberta de fósseis Allosaurus teve grande importância pois, até à data, apenas eram conhecidos fósseis Allossaurus nos Estados Unidos da América, logo, a mais recente descoberta, aponta para a migração destes dinossauros da América do Norte para a Europa, indicando a existência de uma “ponte” terrestre entre os dois continentes atuais. Parte do esqueleto fossilizado deste dinossauro, foi encontrado na Praia de Vale Frade, perto da Lourinhã, num estado muito bem conservado. Foi descrito em 2006 por Octávio Mateus.<p>"
 
 const content3 = "<figure id = 'fig3-1'><img src='/images/lourinhanhosaurus.jpg' alt='Lourinhanhosaurus'width='337' height='225'>\
 <figcaption>Réplica de Lourinhanhosaurus antunesi,<br>presente no Museu da Lourinhã</figcaption></figure>\
@@ -30,24 +30,26 @@ const content5 = "<figure id = 'fig5-1'><img src='/images/lusotitan1.jpg' alt='L
 <h3>Lusotitan atalaiensis</h3> <h5>Classificação:&nbspSaurópode<br>Período:&nbspJurássico Superior</h5>\
 <p>O Lusotitan atalaiensis é uma espécie de dinossauro herbívoro de grande porte, atingindo até mais de 20 metros de comprimento. O primeiro registo fóssil desta espécie vem da década de 1940, na zona da Atalaia, onde o geólogo Manuel de Matos descobriu grandes fósseis de um Saurópode. Apenas em 1957 é que foi descrita como Brachiosaurus atalaiensis, sendo depois renomeada em 2003 por Octávio Mateus e Miguel Telles Antunes, para o seu nome atual. Os seus grandes ossos fossilizados encontram-se no Museu Geológico de Lisboa.</p>"
 
-const content6 = "<h3>Dinheirosaurus Lourinhanensis</h3> <h5>Classificação:&nbspSaurópode<br>Período:&nbspJurássico Superior</h5>\
+const content6 = "<figure id = 'fig6'><img src='/images/dinheirosaurus-size.jpg' alt='Dinheirosaurus'width='635' height='195'>\
+<figcaption>Tamanho de Dinheirosaurus comparado a um humano. Direitos Reservados</figcaption></figure>\
+<h3>Dinheirosaurus lourinhanensis</h3> <h5>Classificação:&nbspSaurópode<br>Período:&nbspJurássico Superior</h5>\
 <p>O Dinheirosaurus Lourinhanensis é o dinossauro mais comprido encontrado em Portugal, chegando a atingir 25 metros de comprimento, apesar do seu grande porte, possuíam cabeças relativamente pequenas, com apenas 40-50cm de comprimento. Os seus fósseis foram descobertos na década de 1980, na praia de Porto Dinheiro, no concelho da Lourinhã, daí o seu nome.<p>\
 <b>Facto Curioso: Para afugentar possíveis predadores, estes dinossauros utilizavam a sua cauda como chicote e esta chegava a ultrapassar a velocidade do som, causando um estrondo sónico!</b>"
 
 const content7 = "<figure id = 'fig7'><img src='/images/museudalourinha.jpg' alt='Zby'width='500' height='333'>\
-<figcaption>Fóssil de Zby Atlanticus, na fachada do Museu da Lourinhã</figcaption></figure>\
-<h3>Zby Atlanticus</h3> <h5>Classificação:&nbspSaurópode<br>Período:&nbspJurássico Superior</h5>\
-<p>Zby Atlanticus, nomeado em honra de Georges Zbyszewski, foi outro Saurópode descoberto na Formação Lourinhã. Foi descrito por Octávio Mateus, Philip D. Mannion e Paul Upchurch em 2014. Os seus fósseis encontram-se na fachada do Museu da Lourinhã.<p>"
+<figcaption>Fóssil de Zby atlanticus, na fachada do Museu da Lourinhã</figcaption></figure>\
+<h3>Zby atlanticus</h3> <h5>Classificação:&nbspSaurópode<br>Período:&nbspJurássico Superior</h5>\
+<p>Zby atlanticus, nomeado em honra de Georges Zbyszewski, foi outro Saurópode descoberto na Formação Lourinhã. Foi descrito por Octávio Mateus, Philip D. Mannion e Paul Upchurch em 2014. Os seus fósseis encontram-se na fachada do Museu da Lourinhã.<p>"
 
 const content8 = "<figure id = 'fig8'><img src='/images/miragaia.jpg' alt='Miragaia'width='440' height='244'>\
-<figcaption>Fóssil de Miragaia Longicollum</figcaption></figure>\
-<h3>Miragaia Longicollum</h3> <h5>Classificação:&nbspOrnitísquio<br>Período:&nbspJurássico Superior</h5>\
-<p>Esta espécie de dinossauro da família Stegosauridae foi encontrada em Miragaia, e possui 17 vértebras cervicais, daí o seu nome Longicollum (pescoço grande). Foi descoberta na década de 1990 e foi descrita em 2009 por Octávio Mateus. É o estegossauro mais completo descoberto na Europa e o seu crânio é o único conhecido de um estegossauro na Europa. Foram ainda encontradas pegadas deste dinossauro com impressão de pele. O seu esqueleto está em exposição no Dino Park, na Lourinhã.<p>"
+<figcaption>Fóssil de Miragaia longicollum</figcaption></figure>\
+<h3>Miragaia longicollum</h3> <h5>Classificação:&nbspOrnitísquio<br>Período:&nbspJurássico Superior</h5>\
+<p>Esta espécie de dinossauro da família Stegosauridae foi encontrada em Miragaia, e possui 17 vértebras cervicais, daí o seu nome longicollum (pescoço grande). Foi descoberta na década de 1990 e foi descrita em 2009 por Octávio Mateus. É o estegossauro mais completo descoberto na Europa e o seu crânio é o único conhecido de um estegossauro na Europa. Foram ainda encontradas pegadas deste dinossauro com impressão de pele. O seu esqueleto está em exposição no Dino Park, na Lourinhã.<p>"
 
 const content9 = "<figure id = 'fig9'><img src='/images/baryonyx.jpg' alt='Baryonyx'width='373' height='309'>\
 <figcaption>Fragmento de mandíbula e dentes de Baryonyx - Museu Geológico em Lisboa</figcaption></figure>\
-<h3>Baryonyx Walkeri</h3> <h5>Classificação:&nbspTerópode<br>Período:&nbspCretácico Inferior</h5>\
-<p>Os primeiros fósseis deste carnívoro bípede de média dimensão foram encontrados em 1983, em Inglaterra, por um colecionador de fósseis amador chamado William Walker. Em 1999 foram descobertos em Portugal alguns dentes e ossos fósseis deste dinossauro, na zona do Cabo Espichel. O seu nome significa Garras Pesadas e deve-se ao facto das suas garras terem cerca de 30 centímetros cada. Acredita-se que este seja o primeiro terópode piscívoro. Os fósseis deste dinossauro podem ser vistos no Museu da Lourinhã, e no Museu Geológico em Lisboa.<p>"
+<h3>Baryonyx walkeri</h3> <h5>Classificação:&nbspTerópode<br>Período:&nbspCretácico Inferior</h5>\
+<p>Os primeiros fósseis deste carnívoro bípede de média dimensão foram encontrados em 1983, em Inglaterra, por um colecionador de fósseis amador chamado William Walker. Em 1999 foram descobertos em Portugal alguns dentes e ossos fósseis deste dinossauro, na zona do Cabo Espichel. O seu nome significa Garras Pesadas e deve-se ao facto das suas garras terem cerca de 30 centímetros cada.<br> Acredita-se que este seja o primeiro terópode piscívoro. Os fósseis deste dinossauro podem ser vistos no Museu da Lourinhã, e no Museu Geológico em Lisboa.<p>"
 
 const content10 = "<figure id = 'fig10'><img src='/images/dracopelta.jpg' alt='Dracopelta'width='388' height='293'>\
 <figcaption>Esqueleto parcial de Dracopelta - Museu Geológico em Lisboa</figcaption></figure>\
@@ -56,7 +58,7 @@ const content10 = "<figure id = 'fig10'><img src='/images/dracopelta.jpg' alt='D
 
 const content11 = "<figure id = 'fig11'><img src='/images/lusovenator.png' alt='Lusovenator'width='368' height='304'>\
 <figcaption>Elementos esqueléticos de Lusovenator santosi</figcaption></figure>\
-<h3>Lusovenator Santosi</h3> <h5>Classificação:&nbspTerópode<br>Período:&nbspJurássico Superior</h5>\
+<h3>Lusovenator santosi</h3> <h5>Classificação:&nbspTerópode<br>Período:&nbspJurássico Superior</h5>\
 <p>A mais recente descoberta da Paleontologia portuguesa foi o Lusovenator Santosi, um terópode de porte médio. Este dinossauro foi identificado a partir de restos recolhidos nas duas últimas décadas, nas jazidas das praias de Valmitão, na Lourinhã, e de Cambelas, em Torres Vedras. “Lusovenator” significa Caçador de Portugal, e “Santosi” é em homenagem a José Joaquim dos Santos, que descobriu fósseis deste dinossauro. Foi descrito em 2020 por Elisabete Malafaia.<p>"
 
 const content12 = "<figure id = 'fig12'><img src='/images/crocodilo.jpg' alt='Portugalosuchus'width='286' height='320'>\
@@ -66,13 +68,13 @@ const content12 = "<figure id = 'fig12'><img src='/images/crocodilo.jpg' alt='Po
 
 const content13 = "<figure id = 'fig13'><img src='/images/trilobite.jpg' alt='Trilobite'width='440' height='300'>\
 <figcaption>Fóssil de Trilobite - Museu das Trilobites de Arouca</figcaption></figure>\
-<h3>Trilobites Gigantes</h3> <h5>Classificação:&nbspArtrópodes<br>Período:&nbspOrdoviciano</h5>\
+<h3>Trilobites Gigantes</h3> <h5>Período:&nbspOrdoviciano</h5>\
 <p>Foi descoberto, na região de Arouca, o maior e mais completo conjunto fóssil de trilobites do mundo. Até à descoberta, apenas eram conhecidas trilobites com, no máximo,  10 centímetros de comprimento, mas algumas das trilobites encontradas em Arouca ultrapassavam os 30 centímetros de comprimento! O enorme tamanho destas trilobites leva a crer que estas viveram no período Ordovícico. É possível observar várias destas espécies de trilobites no Museu das Trilobites em Canelas. <p>"
 
 const content14 = "<figure id = 'fig14'><img src='/images/metoposaurus.jpg' alt='Metoposaurus'width='405' height='270'>\
 <figcaption>Fóssil de Metoposaurus algarvensis, Direitos Reservados</figcaption></figure>\
 <h3>Metoposaurus algarvensis</h3> <h5>Período:&nbspTriásico</h5>\
-<p>O Metoposaurus algarvensis é uma espécie de salamandra e era um dos maiores predadores há cerca de 200 milhões de anos atrás. Foi descoberto, na zona de Loulé, Algarve, por uma equipa de paleontólogos. Era contemporâneo das primeiras espécies de dinossauros e segundo Steve Brusatte, um dos cientistas do estudo, “Era tão comprido como um pequeno carro e tinha centenas de dentes afiados e uma grande cabeça chata. Este era o tipo de predador feroz que os primeiros dinossauros tinham que enfrentar”. Esta descoberta veio a demonstrar que a distribuição geográfica deste ser-vivo era maior do que se achava.<p>"
+<p>O Metoposaurus algarvensis é uma espécie de salamandra e era um dos maiores predadores há cerca de 200 milhões de anos atrás. Foi descoberto, na zona de Loulé, Algarve, por uma equipa de paleontólogos. Era contemporâneo das primeiras espécies de dinossauros e segundo Steve Brusatte, um dos cientistas do estudo, “Era tão comprido como um pequeno carro e tinha centenas de dentes afiados e uma grande cabeça chata. Este era o tipo de predador feroz que os primeiros dinossauros tinham que enfrentar”.<br> Esta descoberta veio a demonstrar que a distribuição geográfica deste ser-vivo era maior do que se achava.<p>"
 
 const content15 = "<figure id = 'fig15'><img src='/images/Plesiopharos.jpg' alt='Plesiopharos'width='680' height='362'>\
 <figcaption>Fóssil de Plesiopharos moelensis</figcaption></figure>\
