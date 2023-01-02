@@ -52,24 +52,25 @@ h1 {
 }
 
 p{
-  font-size: 25px;
+  font-size: large;
   text-align: justify;
 }
 
 b{
-  font-size: 23px;
+  font-size: large;
   text-align: justify;
 }
 
 .map {
   display:inline-block;
   position:absolute;
+  left: 15%;
   top: 20%;
 }
 
 .botao {
-  width: 20px;
-  height: 20px;
+  width: 18px;
+  height: 18px;
   font-size: 8px;
   border-radius: 10px;
   border: 1px solid white;
@@ -78,10 +79,23 @@ b{
   cursor: pointer;
 }
 
-.legenda {
+.legenda  {
   padding: 10px;
+  width: 100px;
   border: 0;
   cursor: none;
+}
+
+#len1 {
+  position: absolute;
+  left: -15%; 
+  top: 10%;
+}
+
+#len2 {
+  position: absolute;
+  left: -15%;
+  top: 15%;
 }
 
 .dinossauro {
@@ -102,116 +116,114 @@ b{
 
 #b1 {
   position:absolute;
-  left:345px;
-  top:515px;
+  left:37px;
+  top:430px;
 }
 
 #b2 {
   position:absolute;
-  left:345px;
-  top:495px;
+  left:37px;
+  top:413px;
 }
 
 #b3 {
   position:absolute;
-  left:365px;
-  top:525px;
+  left:54px;
+  top:438px;
 }
 
 #b4 {
   position:absolute;
-  left:360px;
-  top:480px;
+  left:50px;
+  top:400px;
 }
 
 #b5 {
   position:absolute;
-  left:365px;
-  top:505px;
+  left:54px;
+  top:420px;
 }
 
 #b6 {
   position:absolute;
-  left:358px;
-  top:545px;
+  left:48px;
+  top:454px;
 }
 
 #b7 {
   position:absolute;
-  left:380px;
-  top:470px;
+  left:67px;
+  top:392px;
 }
 
 #b8 {
   position:absolute;
-  left:383px;
-  top:512px;
+  left:69px;
+  top:427px;
 }
 
 #b9 {
   position:absolute;
-  left:370px;
-  top:650px;
+  left:58px;
+  top:542px;
 }
 
 #b10 {
   position:absolute;
-  left:340px;
-  top:555px;
+  left:33px;
+  top:462px;
 }
 
 #b11 {
   position:absolute;
-  left:340px;
-  top:535px;
+  left:33px;
+  top:446px;
 }
 
 #b12 {
   position:absolute;
-  left:450px;
-  top:335px;
+  left:125px;
+  top:280px;
 }
 
 #b13 {
   position:absolute;
-  left:470px;
-  top:220px;
+  left:141px;
+  top:183px;
 }
 
 #b14 {
   position:absolute;
-  left:520px;
-  top:880px;
+  left:183px;
+  top:733px;
 }
 
 #b15 {
   position:absolute;
-  left:390px;
-  top:430px;
+  left:75px;
+  top:358px;
 }
 
 #portugal {
   border: none;
   box-shadow: none;
-  position:absolute;
-  left:300px;
 }
 
 #target {
   background-color:rgb(143, 50, 0);
   width: 40%;
-  height: 75%;
+  height: 80%;
   padding: 40px 20px;
   border-style: solid;
   border-width: 10px;
   border-color: rgba(77, 28, 0);
   border-radius: 20px;
   box-shadow: 0 0 10px 2px black;
-  font-size: 25px;
+  font-size: larger;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color:aliceblue;
   position:absolute;
-  left:45%; top:30%;
+  left:45%; top:28%;
 }
 
 #initial-text {
@@ -227,7 +239,7 @@ figure {
   float: right;
   max-width: 100%;
   text-align: center;
-  font-size: smaller;
+  font-size: medium;
   font-style: italic;
   text-indent: 0;
   margin: 0;
@@ -252,29 +264,32 @@ figure {
 }
 
 #fig3-1 {
-  left: 5%;
+  left: 4%;
 }
 
 #fig3-2 {
-  left: 55%;
+  left: 53%;
 }
 
 #fig4{
+  top: 55%;
   left: 24%;
+}
+#fig5-1{
+  left: 2%;
 }
 
 #fig5-2{
-  left: 54%;
+  left: 51%;
 }
 
 #fig6{
-  top: 65%;
-  left: 12%;
+  left: 5%;
 }
 
 #fig7{
   top: 50%;
-  left: 20%;
+  left: 18%;
 }
 
 #fig8, #fig13, #fig14 {
@@ -282,12 +297,13 @@ figure {
 }
 
 #fig9 {
-  top: 57%;
-  left: 13%;
+  top: 56%;
+  left: 14%;
 }
 
 #fig10 {
-  left: 20%;
+  top: 55%;
+  left: 22%;
 }
 
 #fig11, #fig12 {
@@ -295,9 +311,13 @@ figure {
   left: 25%;
 }
 
-#fig15{
+#fig13 {
   top: 50%;
-  left: 9%;
+}
+
+#fig15{
+  top: 48%;
+  left: 6%;
 }
 
 /* QUIZ */
